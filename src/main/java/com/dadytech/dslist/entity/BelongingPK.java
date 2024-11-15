@@ -30,6 +30,14 @@ public class BelongingPK {
         return gameList;
     }
 
+    public void setGame(Game game) {
+        this.game = game;
+    }
+
+    public void setGameList(GameList gameList) {
+        this.gameList = gameList;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
